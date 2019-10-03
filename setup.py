@@ -179,6 +179,7 @@ import os
 import json
 import glob
 import importlib
+import yaml
 
 from tools.build_pytorch_libs import build_caffe2
 from tools.setup_helpers.env import (IS_WINDOWS, IS_DARWIN,
